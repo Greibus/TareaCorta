@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tony/CLionProjects/TareaCorta/PagedArray/PagedArray.cpp
+PagedArray.h
+/home/tony/CLionProjects/TareaCorta/PagedArray/PagedArray.h
+random
+-
+
+/home/tony/CLionProjects/TareaCorta/PagedArray/PagedArray.h
+iostream
+-
+fstream
+-
+sys/stat.h
+-
+string
+-
+algorithm
+-
+cmath
+-
+
+/home/tony/CLionProjects/TareaCorta/Sort/QuickSort.cpp
+QuickSort.h
+/home/tony/CLionProjects/TareaCorta/Sort/QuickSort.h
+../PagedArray/PagedArray.h
+/home/tony/CLionProjects/TareaCorta/PagedArray/PagedArray.h
+
+/home/tony/CLionProjects/TareaCorta/Sort/QuickSort.h
+../PagedArray/PagedArray.h
+/home/tony/CLionProjects/TareaCorta/PagedArray/PagedArray.h
+
+/home/tony/CLionProjects/TareaCorta/main.cpp
+iostream
+-
+PagedArray/PagedArray.h
+/home/tony/CLionProjects/TareaCorta/PagedArray/PagedArray.h
+Sort/QuickSort.h
+/home/tony/CLionProjects/TareaCorta/Sort/QuickSort.h
+
